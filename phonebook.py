@@ -33,15 +33,27 @@ def view():
 
 
 def edit():
-    edit_entry = input('\n\tEnter the last name of who you would like to edit or cancel (c).  ')
+    edit_entry = input('\n\tEnter the last name of who you would like to edit or cancel (c).  ').lower()
     if edit_entry is 'c':
         start()
     del(pb[edit_entry])
-    change_entry_fn= input('\n\tPlease enter the new first name.  ')
-    change_entry_ln = input('\tPlease enter the new last name.  ')
-    change_entry_n = input('\tPlease enter the new phone number.  ')
-    pb[change_entry_ln] = {'name': [change_entry_fn]+[change_entry_ln], 'phone': [change_entry_n]}
-    print(pb)
+    add_entry()
+    # change_entry_fn= input('\n\tPlease enter the new first name.  ')
+    # change_entry_ln = input('\tPlease enter the new last name.  ')
+    # change_entry_n = input('\tPlease enter the new phone number.  ')
+    # pb[change_entry_ln] = {'name': [change_entry_fn]+[change_entry_ln], 'phone': [change_entry_n]}
+    # print(pb)
+
+q = input('What number are you searching?  ')
+
+# example Chris provided of a for loop in action
+# for ke, va in phonelist.items():
+#     for k, v in ke.items():
+#         if q in v:
+#             print('name: {}'.format(pb[ke]['name']))
+#             print('name: {}'.format(pb[ke]['phone']))
+
+print(pb.items())
 
 def search():
     search_name = input('\n\tWhat name would you like to search?  ')
