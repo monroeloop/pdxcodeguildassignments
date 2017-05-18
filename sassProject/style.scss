@@ -1,0 +1,67 @@
+@import 'vars';
+
+header {
+  background: #2F4858;
+  h1 {
+    color: #fff;
+  }
+}
+
+h1, h2, h3 {
+  color: $text-color;
+}
+
+@for $i from 1 through length($photos){
+  .photos li:nth-child(#{$i}) {
+      background: url(nth($photos, $i));
+  }
+}
+
+@mixin background-mixin($boolean) {
+  @if $boolean == true {
+    height: 100px;
+    background: #000;
+  } @else {
+    height: 200px;
+    background: #84DCC6;
+  }
+}
+
+.aside-1 {
+  height: 150px;
+}
+
+.aside-2 {
+  @extend .aside-1;
+  background: #EF8354;
+}
+
+.aside-4 {
+  @include background-mixin(true)
+}
+
+@each $name in map_keys($colors) {
+  .image-#{$name} {
+    $current-color: map_get($colors, $name);
+    border: solid $current-color;
+    border-width: 25px;
+  }
+}
+
+@while $types > 0 {
+  .while-#{$types} {
+    width: $type-width + $types;
+    $types: $types - 1
+  }
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  li {
+    width: 300px;
+    height: 300px;
+  }
+}

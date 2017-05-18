@@ -1,0 +1,61 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 5px;
+    width: 75%
+    margin: auto;
+
+}
+
+body {
+    background: url(http://1.bp.blogspot.com/-OeaHQUhPByo/UTjVGgZY5rI/AAAAAAAAOno/3ykzNmFM8nI/s1600/Hidden+Lake+Vista,+Glacier+National+Park,+Montana.jpg)
+}
+
+main {
+    padding: 1px;
+}
+
+header, footer {
+    grid-column-end: span 2;
+    background: rgba(169, 169, 169, .65);
+}
+
+aside {
+    background: #eee;
+}
+
+.projectWrapper {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-column-end: span 2;
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 30px 100px;
+    font-style: italic;
+    color: whitesmoke;
+    height: 500px:
+}
+
+.projectWrapper h2 {
+    text-align: center;
+    margin: 0;
+    grid-column-end: span 3;
+}
+
+article {
+    grid-column-end: span 2;
+    color: white;
+}
+
+body > div > main {
+    background: rgba(65, 105, 225, .65);
+    font-style: italic;
+    color: whitesmoke;
+    padding: 5x;
+}
+
+body > div > aside {
+    background: rgba(65, 105, 225, .65);
+    font-style: italic;
+    color: whitesmoke;
+}

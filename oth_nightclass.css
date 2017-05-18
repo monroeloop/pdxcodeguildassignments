@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Poppins');
+
+
+header{
+    background: #84c777;
+}
+
+header > nav {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header > nav > li {
+    dispay: flex;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header > svg {
+    align-items: center;
+}
+
+.projectHeader h2 {
+    font-family: 'Baloo', cursive;
+    text-align: center;
+}
+
+.projectHeader p {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects li {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: solid;
+    color: white;
+}
+
+.projects li:nth-child(1), .projects li:nth-child(8) {
+    background: #8585c0;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(2), .projects li:nth-child(7) {
+    background: #4f4da4;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(3), .projects li:nth-child(6) {
+    background: #5d5da8;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(4), .projects li:nth-child(5) {
+    background: #6b6bae;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(9), .projects li:nth-child(16) {
+    background: #6fba64;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(10), .projects li:nth-child(15) {
+    background: #7abe6e;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(11), .projects li:nth-child(14) {
+    background: #7fc573;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(12), .projects li:nth-child(13) {
+    background: #84c777;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(17), .projects li:nth-child(24) {
+    background: #c9b65f;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(18), .projects li:nth-child(23) {
+    background: #ccb869;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(19), .projects li:nth-child(22) {
+    background: #d1c068;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(20), .projects li:nth-child(21) {
+    background: #d8c778;
+    color: white;
+    font-family: 'Baloo', cursive;
+}

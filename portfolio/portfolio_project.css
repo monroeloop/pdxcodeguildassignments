@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Poppins');
+
+body {
+    background: #eee5e9;
+}
+header {
+    background: #186da3;
+    height: 80px;
+}
+
+ol {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+li:nth-child(1) {
+    list-style-type: none;
+    font-family: 'Baloo', cursive;
+}
+
+li:nth-child(2) {
+    list-style-type: none;
+    font-family: 'Baloo', cursive;
+}
+
+li:nth-child(3) {
+    list-style-type: none;
+    font-family: 'Baloo', cursive;
+}
+
+li:nth-child(4) {
+    list-style-type: none;
+    font-family: 'Baloo', cursive;
+
+}
+
+.projectHeader h2 {
+    font-family: 'Baloo', cursive;
+    text-align: center;
+    color: white;
+}
+
+.projectHeader p {
+    text-align: center;
+    background: #bcb8d2;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects li {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: solid;
+    color: white;
+}
+
+.picture1 {
+    background-image: url('Baker Lake Crop 2.jpg');
+    object-fit: cover;
+    height: 600px;
+    width: auto;
+}
+
+.projects li:nth-child(1), .projects li:nth-child(4) {
+    list-style-type: none;
+    background: #186da3;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(1):hover, .projects li:nth-child(4):hover {
+    list-style-type: none;
+    background: transparent;
+    color: #cf5c36;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(1) p, .projects li:nth-child(4) p {
+    height: 233px;
+}
+
+.projects li:nth-child(1) p:hover, .projects li:nth-child(4) p:hover {
+    height: 233px;
+    background: transparent;
+    color: #cf5c36;
+}
+
+.projects li:nth-child(2), .projects li:nth-child(3) {
+    list-style-type: none;
+    background: #186da3;
+    color: white;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(2):hover, .projects li:nth-child(3):hover {
+    list-style-type: none;
+    background: transparent;
+    color: #cf5c36;
+    font-family: 'Baloo', cursive;
+}
+
+.projects li:nth-child(2) p, .projects li:nth-child(3) p {
+    height: 233px;
+}
+
+.projects li:nth-child(2) p:hover, .projects li:nth-child(3) p:hover {
+    height: 233px;
+    background: transparent;
+    color: #cf5c36;
+}
+
+.picture2 {
+    background-image: url('NC Mike Crop 4.jpg');
+    background-position: top;
+    height: 600px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.personalheader {
+    font-family: 'Baloo', cursive;
+    text-align: center;
+    height: 500px;
+    color: #cf5c36;
+}
+
+.contactinfo {
+    font-family: 'Baloo', cursive;
+    text-align: center;
+    height: 500px;
+}
+
+.picture3 {
+    background-image: url('ONP Crop 3.jpg');
+    background-position: top;
+    height: 200px;
+    width: auto;
+}
+
+.bottomhome a {
+    height: 25px;
+    width: auto;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    color: #cf5c36;
+    font-size: large;
+}

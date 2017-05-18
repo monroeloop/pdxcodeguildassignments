@@ -33,7 +33,7 @@ def view():
 
 
 def edit():
-    edit_entry = input('\n\tEnter the last name of who you would like to edit or cancel (c).  ').lower()
+    edit_entry = input('\n\tEnter the last name of who you would like to edit or cancel (c).  '.lower())
     if edit_entry is 'c':
         start()
     del(pb[edit_entry])
